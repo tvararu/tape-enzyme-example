@@ -1,17 +1,25 @@
 {
   "name": "tapedd",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simplified React component unit testing setup.",
   "main": "index.js",
   "scripts": {
-    "test": "babel-node test.js | faucet"
+    "test": "babel-node test.jsx | faucet"
   },
+  "repository": "https://github.com/tvararu/tape-enzyme-example",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "enzyme": "^1.2.0",
     "faucet": "0.0.1",
+    "react-addons-test-utils": "^0.14.3",
+    "react-dom": "^0.14.3",
     "tape": "^4.2.2"
+  },
+  "dependencies": {
+    "react": "^0.14.3"
   }
 }
