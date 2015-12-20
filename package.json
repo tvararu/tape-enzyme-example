@@ -9,7 +9,7 @@
   "repository": "https://github.com/tvararu/tape-enzyme-example",
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "WTFPL",
   "devDependencies": {
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
