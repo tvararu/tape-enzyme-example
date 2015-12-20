@@ -1,0 +1,17 @@
+{
+  "name": "tapedd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel-node test.js | faucet"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "faucet": "0.0.1",
+    "tape": "^4.2.2"
+  }
+}
