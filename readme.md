@@ -13,9 +13,18 @@ Some of the things I haven't looked into doing yet:
 
 # Installation
 
-```node
+```bash
 npm i
 npm test
+```
+
+Tested on:
+
+```bash
+$ node -v
+v5.3.0
+$ npm -v
+3.5.2
 ```
 
 # License
