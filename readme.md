@@ -2,7 +2,7 @@ A very minimal testing setup using [tape](https://github.com/substack/tape) and 
 
 Some of the things that this setup gets right:
 
-- ES6 and JSX everywhere courtesy of `babel-node` with presets.
+- ES2015 and JSX everywhere courtesy of `babel-node` with presets.
 - No `describe`, `it`, and other linter-perturbing global variables.
 - No `look.at.my.natural.language.assertions` DSL.
 
@@ -16,6 +16,19 @@ Some of the things I haven't looked into doing yet:
 ```bash
 npm i
 npm test
+```
+
+Example output:
+```bash
+npm test
+
+> tapedd@1.0.0 test /Users/tvararu/github/tape-enzyme-example
+> babel-node test.jsx | faucet
+
+✓ <Foo /> adds two numbers
+# tests 1
+# pass  1
+✓ ok
 ```
 
 Tested on:
