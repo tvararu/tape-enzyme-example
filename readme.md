@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/tvararu/tape-enzyme-example.svg)](https://travis-ci.org/tvararu/tape-enzyme-example) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+
 A very minimal testing setup using [tape](https://github.com/substack/tape) and [enzyme](https://github.com/airbnb/enzyme) to test a React component. Inspired by [Eric Elliot's article](https://medium.com/javascript-scene/why-i-use-tape-instead-of-mocha-so-should-you-6aa105d8eaf4).
 
 Some of the things that this setup gets right:
